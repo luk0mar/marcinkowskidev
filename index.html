@@ -21,7 +21,7 @@
 
             </nav>
         </header>
-        <h1>Testowa strona</h1>
+        <!-- <h1>Testowa strona</h1>
         <section>
             <h2>Pierwsza sekcja</h2>
             <p>
@@ -88,7 +88,32 @@
                     <td>8</td>
                 </tr>
             </table>
-            
+        </section> -->
+
+        <section>
+            <form action="/login.pl" method="get">
+                <fieldset>
+                    <legend>Dane personalne</legend>
+                    <label for="Name">Imię:</label>
+                    <input type="text" placeholder="Imię" id="Name"> <br>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="email" id="email">
+                    <input type="radio" name="Color" value="Red" checked="checked"> Czerwony
+                    <input type="radio" name="Color" value="Green"> Zielony
+                    <input type="radio" name="Color" value="Blue"> Niebieski
+
+                </fieldset>
+                <fieldset>
+                    <legend>Wybierz coś</legend>
+                    <input type="radio" name="Color" value="Red" checked="checked"> Czerwony
+                    <input type="radio" name="Color" value="Green"> Zielony
+                    <input type="radio" name="Color" value="Blue"> Niebieski
+                    <br>
+                    <input type="checkbox" name="Animal" value="cat"> Kot
+                    <input type="checkbox" name="Animal" value="dog"> Pies
+                    <input type="checkbox">
+                </fieldset>
+            </form>
         </section>
         <footer>
 
