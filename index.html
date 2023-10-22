@@ -91,7 +91,7 @@
         </section> -->
 
         <section>
-            <form action="/login.pl" method="get">
+            <form method="get">
                 <fieldset>
                     <legend>Dane personalne</legend>
                     <label for="Name">Imię:</label>
@@ -110,9 +110,17 @@
                     <input type="radio" name="Color" value="Blue"> Niebieski
                     <br>
                     <input type="checkbox" name="Animal" value="cat"> Kot
-                    <input type="checkbox" name="Animal" value="dog"> Pies
-                    <input type="checkbox">
+                    <input type="checkbox" name="Animal" value="dog"> Pies 
+                    <br />
+                    <select name="Outfit" multiple="multiple">
+                        <option value="Hoodie">Bluza</option>
+                        <option value="T-shirt">T-shirt</option>
+                        <option value="Trausers">Spodnie</option>
+
+                    </select>
                 </fieldset>
+                <input type="submit" value="Prześlij" />
+                
             </form>
         </section>
         <footer>
